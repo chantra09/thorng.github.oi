@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkcyan;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contact{
+    width: 30%;
+    height: 80%;
+    background-color: azure;
+    border-radius: 20px;
+}
+.con-1{
+    width: 100%;
+    height: 10%;
+    /* background-color: aquamarine; */
+}
+.con-1> h2{
+    text-align: center;
+}
+.con-2{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+}
+.con-2>p{
+    /* text-align: center; */
+    margin-left: 60px;
+    margin-top: -10px;
+
+    
+}
+.con-2> input{
+    width: 65%;
+    height: 40%;
+    margin-left: 15%;
+    border:1.7px rgb(128, 120, 120) solid;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+.con-3{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+}
+.con-3>p{
+    margin-left: 60px;
+    margin-top: -10px;
+}
+.con-3> input{
+    width: 65%;
+    height: 40%;
+    margin-left: 15%;
+    border:1.7px rgb(128, 120, 120) solid;
+    border-radius: 3px;
+    margin-bottom: 80px;
+}
+.con-4{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+.con-4> input{
+    width: 5%;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    
+}
+
+.con-4> p{
+   margin-left: 10px;
+   margin-bottom: 90px;
+
+}
+.con-5{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    
+}
+.con-5> input{
+    width: 65%;
+    height: 40px;
+    /* margin-left: 15%; */
+    border:1.7px rgb(128, 120, 120) solid;
+    border-radius: 10px;
+    margin-top: -30px;
+    margin-left: 70px;
+    background-color: rgb(194, 126, 194);
+    text-align:center;
+    box-shadow: 1px 1px 1px 2px rgb(227, 215, 215);
+
+}
+.con-5> p{
+    margin-left: 200px;
+}
+.con-6{
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    
+
+}
+.con-6> img{
+    margin-left: 120px;
+    gap: -100px;
+}
